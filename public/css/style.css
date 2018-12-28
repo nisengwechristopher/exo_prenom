@@ -1,7 +1,11 @@
 header {
   border-bottom: 0.2em solid rgba(174, 168, 255, 0.8);
 }
-header .row {
+header .container {
+  max-width: 85%;
+  padding-left: 6em;
+}
+header .container .row {
   padding-top: 1em;
   text-transform: uppercase;
   font-size: 0.8em;
@@ -80,6 +84,21 @@ header .row {
 
 .spreading {
   margin-top: 6em;
+}
+
+footer {
+  text-align: center;
+  color: rgba(54, 54, 54, 0.993);
+  margin-top: 3em;
+  padding-top: 6em;
+  background-color: black;
+}
+footer i {
+  margin-right: 1em;
+}
+footer span {
+  text-transform: capitalize;
+  color: rgba(175, 173, 255, 0.8);
 }
 
 /*# sourceMappingURL=style.css.map */
