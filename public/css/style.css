@@ -9,7 +9,27 @@ header .row {
 }
 
 .textColor1 {
-  color: rgba(143, 143, 143, 0.993);
+  color: rgba(184, 184, 184, 0.993);
+}
+
+.button1 {
+  border: 1px solid;
+  border-color: rgba(184, 184, 184, 0.993);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.993);
+  padding: 0.8em 2.2em;
+}
+
+.rowStyle1 {
+  text-align: left;
+  margin-top: 8em;
+}
+.rowStyle1 p {
+  max-width: 85%;
+  margin-top: 2em;
+  margin-bottom: 3em;
 }
 
 #magGlass {
